@@ -15,6 +15,7 @@ window.onload = function(){
 totalArticle = []
 elements = []
 for(let i = 0; i<nomproduit.length; i++){
+
     ajouter[i].addEventListener('click', function(){
         plus[i].style.display = 'flex';
         moin[i].style.display = 'flex';
